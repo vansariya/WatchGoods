@@ -374,7 +374,7 @@ footer {
         padding: 0;
         transform-origin: top;
         transition: transform 0.3s ease-in-out; 
-        /* overflow: hidden;    */
+        overflow-x: hidden;   
     }
 
     .menu.active {
@@ -542,7 +542,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 430px) {
     header {
         flex-direction: row; /* Susun logo dan tombol hamburger horizontal */
         justify-content: space-between; /* Agar logo dan tombol hamburger berada di ujung yang berbeda */
