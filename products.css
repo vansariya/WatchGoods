@@ -565,13 +565,13 @@ footer {
     }
     .products {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 brand per baris */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 2 brand per baris */
         row-gap: 30px;
         justify-items: center;
         margin-left: 0;
         /* margin-bottom: 2rem; */
     }
-    .product-card{
+    /* .product-card{
         gap: 20px;
-    }
+    } */
 }
