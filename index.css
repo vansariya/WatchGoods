@@ -235,7 +235,7 @@ footer {
         padding: 20px;
         transform-origin: top;
         transition: transform 0.3s ease-in-out; 
-        /* overflow: hidden;    */
+        overflow-x: hidden;   
     }
 
     .menu.active {
