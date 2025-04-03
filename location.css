@@ -336,3 +336,45 @@ footer {
         margin-top: 1rem;
     }
 }
+@media (max-width: 480px) {
+    .logo img {
+        height: 40px;
+    }
+    .logo span {
+        font-size: 24px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    .recommendation h2 {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+        width: 100px;
+        gap: 0 30px;
+        /* margin-left: 1rem; */
+        /* align-items: center; */
+        /* padding-right: 2rem; */
+    }
+    .content{
+        width: 30px;
+    }
+    .SMB{
+        height: 110px;
+    }
+    .PM{
+        height: 110px;
+    }
+    .CP{
+        height: 100px;
+    }
+    .SC{
+        height: 110px;
+    }
+    .PIM{
+        height: 110px;
+    }
+}
