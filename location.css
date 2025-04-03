@@ -300,10 +300,11 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, minmax(160px, 1fr));
         width: 100px;
-        gap: 0 30px;
-        margin-left: 1rem;
+        gap: 30px;
+        /* margin-left: 1rem; */
         /* align-items: center; */
         /* padding-right: 2rem; */
+        box-sizing: border-box;
     }
     .content{
         width: 30px;
