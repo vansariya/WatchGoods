@@ -20,7 +20,7 @@ header {
 }
 .hamburger {
     font-size: 24px;
-    background: none;
+    background: transparent;
     border: none;
     cursor: pointer;
     display: none; /* Sembunyikan tombol hamburger pada desktop */
@@ -402,7 +402,7 @@ footer {
         text-decoration: none;
     }
     .menu a:hover {
-        background-color: #eee;
+        background-color: #ffffff;
     }
     .logo {
         margin-top: 5px;
@@ -572,6 +572,6 @@ footer {
         /* margin-bottom: 2rem; */
     }
     .product-card{
-        margin-bottom: 2rem;
+        gap: 20px;
     }
 }
