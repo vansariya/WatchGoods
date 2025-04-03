@@ -144,6 +144,21 @@ h2::after {
     margin: 10px 0 0;
     font-weight: bold;
 }
+.PM{
+    height: 150px;
+}
+.SMB{
+    height: 140px;
+}
+.CP{
+    height: 140px;
+}
+.SC{
+    height: 140px;
+}
+.PIM{
+    height: 140px;
+}
 footer {
     background: #333;
     color: white;
@@ -303,6 +318,12 @@ footer {
     }
     .CP{
         height: 100px;
+    }
+    .SC{
+        height: 110px;
+    }
+    .PIM{
+        height: 110px;
     }
     footer {
         flex-direction: column;
