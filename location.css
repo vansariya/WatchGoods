@@ -104,22 +104,23 @@ h2::after {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin-left: -2rem; */
+    margin-left: 2rem;
 }
 .container{
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 100%;
+    /* padding-left: 3rem; */
     /* margin-right: 5rem; */
 }
 .container a{
     margin-bottom: 2rem;
-    /* margin-left: 2rem; */
+    margin-left: 2rem;
     /* left: ; */
     /* margin-left: 2rem; */
     /* max-width: 100%; */
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
 }
 .location {
     border: 1px solid #ccc;
@@ -386,3 +387,7 @@ footer {
         height: 110px;
     }
 }
+@media (max-width: 834px) {
+    /* CSS untuk iPad */
+  }
+  
