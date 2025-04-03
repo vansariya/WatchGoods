@@ -563,7 +563,7 @@ footer {
     .brand img {
         width: 100px;
     }
-    .brands {
+    .products {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 brand per baris */
         gap: 15px;
