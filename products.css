@@ -543,6 +543,7 @@ footer {
     }
     .footer-section .social-icons {
         justify-content: center;
+        margin-top: 1rem;
     }
 }
 
