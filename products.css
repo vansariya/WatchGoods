@@ -546,21 +546,99 @@ footer {
     }
 }
 
-@media (max-width: 430px) {
-    .logo img {
-        height: 40px;
+@media (max-width: 480px) { 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
     }
-    .logo span {
-        font-size: 24px;
+
+    .hamburger {
+        display: block;
+        font-size: 28px;
+        margin-left: 5rem;
     }
-    nav ul {
-        gap: 10px;
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+        transition: transform 0.3s ease-in-out;
     }
+
+    .menu.active {
+        display: block;
+        transform: scaleY(1);
+    }
+
+    .menu a {
+        display: block;
+        font-size: 14px;
+        padding: 12px;
+    }
+
     .recommendation h2 {
-        font-size: 1.2rem;
-        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 10px 0;
     }
+
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 brand per baris */
+        gap: 15px;
+        justify-items: center;
+        margin-left: 0;
+    }
+
     .brand img {
         width: 100px;
+    }
+
+    .product-card {
+        width: 140px;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-card img {
+        width: 75px;
+    }
+
+    .casio1, .rolex1, .fossil1, .ac2 {
+        width: 140px;
+        margin-top: 1.5rem;
+    }
+
+    .casioo1, .rolexx1, .fossils1, .acc2 {
+        margin-top: 2rem;
+    }
+
+    .casiooo1, .rolexxx2, .fossill1, .accc2 {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-section {
+        margin-top: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .footer-section h3 {
+        font-size: 14px;
     }
 }
