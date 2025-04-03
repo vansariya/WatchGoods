@@ -542,7 +542,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     header {
         flex-direction: row; /* Susun logo dan tombol hamburger horizontal */
         justify-content: space-between; /* Agar logo dan tombol hamburger berada di ujung yang berbeda */
