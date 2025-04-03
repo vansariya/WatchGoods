@@ -22,7 +22,6 @@ header {
     cursor: pointer;
     display: none; /* Sembunyikan tombol hamburger pada desktop */
 }
-
 /* Menu */
 .menu {
     list-style-type: none;
@@ -94,15 +93,10 @@ nav ul li a:hover {
     margin-top: 3rem;
     margin-left: 3rem;
     font-weight: 500;
+    font-size: 30px;
 }
 .recommendation {
     padding: 20px;
-}
-.recommendation h2 {
-    margin-top: 3rem;
-    margin-left: 3rem;
-    font-weight: 500;
-    font-size: 30px;
 }
 .brands {
     display: flex;
