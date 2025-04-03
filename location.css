@@ -5,11 +5,12 @@ body {
     padding: 0;
     text-align: center;
     background-color: #ffffff;
+    max-width: 100%;
 }
-/* *{
+*{
     box-sizing: border-box;
     max-width: 100%;
-} */
+}
 header {
     display: flex;
     justify-content: space-between;
