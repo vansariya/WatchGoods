@@ -569,5 +569,6 @@ footer {
         gap: 15px;
         justify-items: center;
         margin-left: 0;
+        margin-bottom: 2rem;
     }
 }
