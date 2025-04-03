@@ -115,7 +115,8 @@ h2::after {
 .container a{
     margin-bottom: 2rem;
     /* margin-left: 2rem; */
-    left: 0;
+    right: 0;
+    /* max-width: 100%; */
 }
 .location {
     border: 1px solid #ccc;
