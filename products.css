@@ -78,9 +78,23 @@ nav ul li a:hover {
     padding: 20px;
 }
 .recommendation h2{
-    margin-top: 3rem;
+    margin-top: -1rem;
     margin-left: 3rem;
     font-weight: 500;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+}
+.recommendation h2::after {
+    content: "";
+    display: block;
+    width: 50%; /* Sesuaikan panjang garis */
+    height: 4px;
+    background-color: rgb(48, 198, 48);
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
 }
 .brands {
     display: flex;
@@ -88,8 +102,8 @@ nav ul li a:hover {
     scroll-snap-type: x mandatory; /*Membuat scroll snap ke setiap item*/
     -webkit-overflow-scrolling: touch; /* Smooth scrolling di iOS */
     gap: 30px;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     padding: 30px 20px;
     white-space: nowrap; /* Mencegah item wrap ke baris berikutnya */
     scrollbar-width: none; /* Untuk Firefox */
@@ -136,6 +150,16 @@ nav ul li a:hover {
 .rolex{
     padding-top: 1rem;
 }
+.rolex2{
+    width: 230px;
+    margin-right: 3.5rem;
+}
+.rolexx2{
+    margin-top: 2rem;
+}
+.rolexxx2{
+    margin-top: 2.5rem;
+}
 .fossil{
     padding-top: 1rem;
 }
@@ -164,12 +188,32 @@ nav ul li a:hover {
 .casio1{
     width: 220px;
 }
+.casio2{
+    width: 200px;
+    margin-top: 1.5rem;
+}
+.casioo2{
+    margin-top: 3rem;
+}
+.casiooo2{
+    margin-top: 2.5rem;
+}
 .ac1{
     width: 180px;
     margin-top: 1rem;
 }
 .acc1{
     margin-top: 1.8rem;
+}
+.ac2{
+    width: 200px;
+    margin-top: 0.5rem;
+}
+.acc2{
+    margin-top: 2.5rem;
+}
+.accc2{
+    margin-top: 2rem;
 }
 .fossil1{
     width: 200px;
@@ -181,10 +225,31 @@ nav ul li a:hover {
 .fossill1{
     margin-top: 2.5rem;
 }
+.fossil2{
+    width: 200px;
+    margin-top: 2rem;
+}
+.fossils2{
+    margin-top: 3.5rem;
+}
+.fossill2{
+    margin-top: 2rem;
+}
 .dw1{
     width: 150px;
     /* height: auto; */
     margin-top: 0.5rem;
+}
+.dw2{
+    width: 180px;
+    /* height: auto; */
+    margin-top: 2rem;
+}
+.dww2{
+    margin-top: 3rem;
+}
+.dwww2{
+    margin-top: 2rem;
 }
 .product-card h3{
     font-weight: 600;
@@ -357,19 +422,115 @@ footer {
         align-items: center;
     }
     .recommendation h2 {
+        text-align: left;
         font-size: 1.5rem;
-        margin-left: 1.5rem;
+        display: block;
+        font-weight: 600;
+        margin-left: 3rem; /* Sesuaikan dengan kebutuhan */
+    }
+    .recommendation h2::after {
+        display: none;
     }
     .brand img {
         width: 120px;
     }
-    
+    .brands{
+        margin-left: -1rem;
+    }
+    .product-card{
+        margin-top: -3rem;
+        width: 150px;
+        margin-bottom: 2rem;
+    }
+    .product-card img{
+        width: 100px;
+    }
+    .casio1{
+        width: 120px;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .casioo1{
+        margin-top: 4rem;
+        font-size: 20px;
+    }
+    .casiooo1{
+        margin-top: 2.5rem;
+        font-size: 0.5rem;
+    }
+    .casio2{
+        width: 300px;
+        margin-top: 2.5rem;
+    }
+    .casioo2{
+        margin-top: 2rem;
+    }
+    .casiooo2{
+        margin-top: 1.5rem;
+    }
+    .rolex1{
+        width: 170px;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .rolexx1{
+        margin-top: 2.7rem;
+    }
+    .rolex2{
+        margin-top: 2rem;
+        width: 400px;
+        /* height: auto; */
+        margin-left: 1.5rem;
+    }
+    .rolexx2{
+        margin-top: 4rem;
+    }
+    .rolexxx2{
+        margin-top: 2.5rem;
+    }
+    .dw1{
+        width: 10px;
+        margin-top: 1rem;
+    }
+    .dwww1{
+        margin-top: 2rem;
+    }
+    .dww1{
+        margin-top: 1.5rem;
+    }
+    .acc1{
+        margin-top: 4rem;
+    }
+    .accc1{
+        margin-top: 2.2rem;
+    }
+    .ac2{
+        width: 200px;
+        margin-top: 1.5rem;
+    }
+    .acc2{
+        margin-top: 2.5rem;
+    }
+    .accc2{
+        margin-top: 2rem;
+    }
+    .fossil1{
+        width: 200px;
+        margin-top: 2rem;
+    }
+    .fossils1{
+        margin-top: 2.5rem;
+    }
+    .fossill1{
+        margin-top: 2.5rem;
+    }
     footer {
         flex-direction: column;
         text-align: center;
     }
     .footer-section {
         margin-left: 0;
+        margin-top: 2rem;
         margin-bottom: 20px;
     }
     .footer-section h3 {
